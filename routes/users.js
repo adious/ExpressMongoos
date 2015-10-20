@@ -26,7 +26,7 @@ router.post('/users', function(req, res) {
 			console.log(err);
 			response = {"error": ture, "message":"Error creating user"}			
 		} else {
-	            response = {"error" : false,"message" : "Data added"};
+	            response = {"Data added"};
            }
           res.send(response);
 	});
